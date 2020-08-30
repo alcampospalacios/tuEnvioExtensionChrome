@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <style type="text/css">
+        body {
+            min-width: 260px;
+        }
+
+        a {            
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h3 {
+            font: 1em sans-serif;            
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        ul {
+            list-style: none;
+            /* Quitamos los marcadores */
+            padding: 0;
+            /* Quitamos el padding por defecto de la lista */
+            margin-left: 10px;
+            /* Separamos la lista de la izquierda */
+            cursor: pointer;
+            /* Para ver el cursor con la manito */
+        }
+
+        button {
+            background-color: white;
+            border: 1px solid #9d0731;
+            color: black;
+            cursor: pointer;
+        }       
+
+        .icon-init {
+            color: teal;
+            text-align: center;
+        }
+
+        .icon-stop {
+            color: #9d0731;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: white; border: 10px solid #9d0731;">
+
+    <h3>NOTIFICAME</h3>
+    <ul>
+        <li><button id="initN"><i class="fa fa-play icon-init" aria-hidden="true"></i> Iniciar notificaciones</button></li><br />
+        <li><button id="stopN"><i class="fa fa-stop icon-stop" aria-hidden="true"></i> Detener notificaciones</button></li><br />
+        <li><a>Acerca de...</a></li>
+    </ul>
+
+
+</body>
+
+</html>
